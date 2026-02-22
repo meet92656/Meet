@@ -64,7 +64,7 @@ load_dotenv()
 
 API_ID = int(os.environ.get("API_ID"))
 API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = 7947773022:AAGy7FcQgCWMkkpB47F0C08GMrJDWOW_yeg
 ASSISTANT_SESSION = os.environ.get("ASSISTANT_SESSION")
 OWNER_ID = int(os.getenv("OWNER_ID", "5268762773"))
 
