@@ -62,11 +62,11 @@ from collections import deque
 load_dotenv()
 
 
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
+API_ID = int(os.environ.get(22163818))
+API_HASH = os.environ.get(dfe0949fde0f426d14ae5f809c0cbb69)
 BOT_TOKEN = 7947773022:AAGy7FcQgCWMkkpB47F0C08GMrJDWOW_yeg
-ASSISTANT_SESSION = os.environ.get("ASSISTANT_SESSION")
-OWNER_ID = int(os.getenv("OWNER_ID", "5268762773"))
+ASSISTANT_SESSION = os.environ.get(BQFSMWoAkgBooEuRUhF0gLQSuWxhSZFPPWNGx62deHlJ6qo2XqFrbPjZ5B_o1YFWjYGBwgpvNBQ18b3v2n00UmREz_rjQ0BYeUXNoshmedaNhpZqjlfNjU_uZLeXBFCT6tyltdxRjk_NcivZ-PB-quZGcN87qt1XfpvPEeXkacoFsHZbwxtjMZ7J_w_fXhnyumXn0wuDIVtjSIgHCgTJtv2PUUoggIcXh_GDpVykhg4SwroHWWkS7Dau-4_VKfdl9xcP51jIvLJlhuxseWa4s6aq465YykkiDExCnnBs8ouEcxCSX2W1q67s5-2zoD5GSlR8zXw1bB1anGDbH4Uhpis-xn-m2gAAAAIAM5XeAA)
+OWNER_ID = int(os.getenv("OWNER_ID",8593315294))
 
 
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
